@@ -1,0 +1,121 @@
+.container {
+    position: relative;
+    width: 50%;
+  }
+  h3, h4{
+    text-align: center;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url("sky.jpg");
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  button.thoughtbot {
+    background-color: #AED6F1;
+    background-image: linear-gradient(to top,#AED6F1 0%,#85C1E9 50%,#5DADE2 50%, #3498DB  100%);
+    border: 1px solid #3498DB;
+    border-radius: 5px;
+    color: white;
+    font: bold ;
+    padding: 12px 0 14px 0;
+    text-align: center;
+    width: 150px;
+    margin:0 auto; 
+  }
+  button.thoughtbot:hover, button.thoughtbot:active  {
+    background-color:#AED6F1;
+    background-image: linear-gradient(to bottom, #AED6F1 0%,#85C1E9 50%, #5DADE2 50%, #3498DB  100%);
+    cursor: pointer; 
+  }
+  .augl {
+    text-decoration: none;
+  }
+  .innihald {
+    padding-bottom:1em;
+  }
+  .innihald h3, .innihald h4 {
+    font-family: sans-serif;
+      color:#3498DB;
+  }
+  
+  .efriTexti{
+    position: relative;
+    animation: intro 5s 1; 
+  }
+  
+  @keyframes intro {
+    0% {
+      left: 0;
+      top: -20em; 
+    }
+    80% {
+      left: 0;
+      top: 2em; 
+    }
+    100% {
+      left: 0;
+      top: 0; 
+    } 
+  }
+  .nedriTexti{
+    position: relative;
+    animation: pepp 8s 1; 
+  }
+  
+  @keyframes pepp {
+    0% {
+      left: 0;
+      top: -20em; 
+    }
+    80% {
+      left: 0;
+      top: -20em; 
+    }
+    100% {
+      left: 0;
+      top: 2em; 
+    } 
+  }
+  .thoughtbot{
+    position: relative;
+    animation: kvikun 12s 1;
+    left: 9em;
+  }
+  
+  @keyframes kvikun {
+    0% {
+      left: 9em;
+      top: -15em; 
+    }
+    80% {
+      left: 9em;
+      top: -15em; 
+    }
+    100% {
+      left:9em;
+      top: 2em; 
+    } 
+  }
+  .augl-rammi {
+      width: 50em;
+      height: 50em;
+      margin: auto;
+  
+  }
